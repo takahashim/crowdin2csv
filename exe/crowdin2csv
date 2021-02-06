@@ -1,5 +1,6 @@
 #!/usr/bin/env ruby
+# frozen_string_literal: true
 
-require "crowdin2csv"
+require 'crowdin2csv'
 
 Crowdin2csv::CLI.execute(ARGV)
