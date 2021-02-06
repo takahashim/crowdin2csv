@@ -1,28 +1,24 @@
 # Crowdin2csv
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/crowdin2csv`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+`Crowdin2csv` is a CLI tool to convert a XLIFF file from [cronwdin](https://crowdin.com) into CSV file.
 
 ## Installation
 
-Add this line to your application's Gemfile:
+`Crowdin2csv` is a rubygems. Install with `gem` command:
 
-```ruby
-gem 'crowdin2csv'
+```console
+$ gem install crowdin2csv
 ```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install crowdin2csv
 
 ## Usage
 
-TODO: Write usage instructions here
+```console
+## to generate foo.csv
+$ crowdin2csv foo.xliff
+
+## to generate bar.csv
+$ crowdin2csv -o bar.csv foo.xliff
+```
 
 ## Development
 
