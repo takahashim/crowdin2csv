@@ -1,6 +1,6 @@
 # Crowdin2csv
 
-`Crowdin2csv` is a CLI tool to convert a XLIFF file from [cronwdin](https://crowdin.com) into CSV file.
+`Crowdin2csv` is a CLI tool to convert a [XLIFF](https://en.wikipedia.org/wiki/XLIFF) file from [cronwdin](https://crowdin.com) into CSV file.
 
 ## Installation
 
