@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require "crowdin2csv"
+
+
+Crowdin2csv::CLI.execute(ARGV)
