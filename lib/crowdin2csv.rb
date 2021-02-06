@@ -1,11 +1,10 @@
 require "crowdin2csv/version"
+require "crowdin2csv/error"
+require "crowdin2csv/cli"
 require 'nokogiri'
 require 'csv'
-require "optparse"
 
 module Crowdin2csv
-  class Error < StandardError; end
-
   CSV_HEADER = %w(unit_id file_id original source target resname note)
 
   def crowdin2csv(filename, output_filename)
@@ -32,4 +31,5 @@ module Crowdin2csv
       end
     end
   end
+  module_function :crowdin2csv
 end

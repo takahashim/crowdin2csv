@@ -2,5 +2,4 @@
 
 require "crowdin2csv"
 
-
 Crowdin2csv::CLI.execute(ARGV)
