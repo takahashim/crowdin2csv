@@ -35,6 +35,7 @@ module Crowdin2csv
       OptionParser.new do |opt|
         opt.banner = 'Usage: crowdin2csv [options] <xliff filename>'
         opt.program_name = 'crowdin2csv'
+        opt.version = Crowdin2csv::VERSION
 
         opt.on('-o', '--output-file FILENAME', 'output csv filename') do |filename|
           @output_filename = filename
